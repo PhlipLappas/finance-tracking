@@ -224,7 +224,7 @@ while z == "yes":
     "5"
     ]
     while option not in valid:
-        option = input("How can i help you today?[1(add transaction),2(month summary),3(show month transactions),4(category_breakdown)]:")
+        option = input("How can i help you today?[1(add transaction),2(month summary),3(show month transactions),4(category breakdown),5(next month prediction)]:")
     if option == "1":
         add_transaction()
     elif option =="2":
@@ -236,4 +236,5 @@ while z == "yes":
     else:
         next_month_prediction()
     z = input("Do yo need any help for today?(yes/no)")
+
 print("Thanks for using our finance tracking system!")
